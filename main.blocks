@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="zH+AzJ^~hfKlCJwJEQNM">サイコロの目</variable></variables><block type="device_gesture_event" id="Sd_FfX.4RMpG|.Q]k=+t" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="(EvmLZG;WBY`$2E6z]oY"><field name="VAR" id="zH+AzJ^~hfKlCJwJEQNM">サイコロの目</field><value name="VALUE"><shadow type="math_number" id="^sdNHkOR?WGZn=:6;=Pi"><field name="NUM">0</field></shadow><block type="device_random" id="C5e9piQ`H2zLGI|{hkxF"><value name="min"><shadow type="math_number" id="-~9Zx!B_8Sv-_6qZ--N+"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="@dU+i1zTP*,}r?H@S-o]"><field name="NUM">10</field></shadow></value></block></value></block></statement></block><block type="device_forever" id=".PUm[0843wDFwp2JY;~S" x="0" y="140"><statement name="HANDLER"><block type="controls_if" id="|~:IFP(h7@Q^cb}3x_uw"><mutation elseif="4" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="P|0b@0EXr$$oiri*Tw$n"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="##mD4T-_kMnaQJwy_@nU"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Ip{wTATn*@o91d(dx^-W" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="0zle0AIb*XCX@EkqtP-^"><field name="VAR" id="zH+AzJ^~hfKlCJwJEQNM">サイコロの目</field></block></value><value name="B"><shadow type="math_number" id="G^HtzJw@Y~.Y3_jLLk6k"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="]niQubp]p{$%ZxX(nt7J"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="nZ%0mfgMR}e,787xO$3d"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="N%@I3f`{)%3H(rru29|p"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="}Jpw%${B]9r7M[dSS]u9" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="yB1?27FkJTSnkZ-A^F5R"><field name="VAR" id="zH+AzJ^~hfKlCJwJEQNM">サイコロの目</field></block></value><value name="B"><shadow type="math_number" id="odoRT4`-V0Ie}MQM0}M="><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="i~fHig]2|Xp$C@6he)(."><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . #
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean" id="Xid]:+dJh+pbBS3_GOcK"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="z*OHstdZ0={`+]~6~#*!"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="@-XOH/SznSKwWu{k+JSN" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="v6g5rrsf!e`CUF5EK(si"><field name="VAR" id="zH+AzJ^~hfKlCJwJEQNM">サイコロの目</field></block></value><value name="B"><shadow type="math_number" id="zW1gMxN3ux0+BIPNwdLZ"><field name="NUM">3</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="AeX=`+R4EH[5=)jjRDaA"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . #
+        `</field></block></statement><value name="IF3"><shadow type="logic_boolean" id="^9_H`P.q2WL^TIza7(_q"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="Wtm!^g!U74!+7R67,eL/"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="QKc|Zx4P]1S3`oD_z-mb" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="`pd.(K5L7s|j/5Qq[P5/"><field name="VAR" id="zH+AzJ^~hfKlCJwJEQNM">サイコロの目</field></block></value><value name="B"><shadow type="math_number" id="W%?fXugngWM:{/!(h2sU"><field name="NUM">4</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="wk1?lzW4hk,Cvx0?{oKF"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><value name="IF4"><shadow type="logic_boolean" id=":3LO`6fg3Fz73~QIpY]^"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="C=QM?7?=%W_,!n:|!]2k"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="p+oK!zRuNNP7Tx%ntUd*" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="jIx{Qvk(-y_]XWYIV$2g"><field name="VAR" id="zH+AzJ^~hfKlCJwJEQNM">サイコロの目</field></block></value><value name="B"><shadow type="math_number" id="KBvU2rVdnQoXH^C+)qZW"><field name="NUM">5</field></shadow></value></block></value><statement name="DO4"><block type="device_show_leds" id="31o6+0(lw@J!L?zr*jrK"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="3y+58;Lq6yVm?T9j.w8E"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . #
+        `</field></block></statement></block></statement></block><block type="logic_boolean" id="W%~}f2=qebd{Ucy-]TPg" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="115" y="250"><field name="BOOL">FALSE</field></block><block type="logic_boolean" id="y=tJWV{M-42g8iS1%zCL" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="116" y="253"><field name="BOOL">FALSE</field></block></xml>
